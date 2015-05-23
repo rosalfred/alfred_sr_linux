@@ -1,0 +1,17 @@
+<!-- This is a sample lanuch file, please change it based on your needs -->
+
+<launch>
+  <!-- DRIVERS -->
+
+  <!-- SYSTEM SOUND (alsa) -->
+  <!--node name="system_sound" pkg="sound_play" type="soundplay_node.py"  output="screen" clear_params="true" >
+  </node-->
+
+  <!-- SPEECH to TEXT -->
+  <node name="recognizer" pkg="pocketsphinx" type="recognizer.py" output="screen">
+    <param name="lm" value="$(find alfred_sr_linux)/res/french3g62K.lm.dmp"/>
+    <param name="dict" value="$(find alfred_sr_linux)/res/frenchWords62K.dic"/>
+  </node>
+
+</launch>
+

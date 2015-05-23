@@ -1,0 +1,6 @@
+#! /usr/bin/env python
+
+import alfred_sr_linux.gspeech_node
+
+if __name__ == '__main__':
+    alfred_sr_linux.gspeech_node.run()
