@@ -55,7 +55,7 @@ catkin_python_setup()
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES media_xbmc_driver
-  CATKIN_DEPENDS dynamic_reconfigure rospy
+  CATKIN_DEPENDS dynamic_reconfigure rospy std_msgs media_msgs
 #  DEPENDS system_lib
 )
 
