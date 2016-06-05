@@ -2,6 +2,12 @@
 Changelog for package alfred_sr_linux
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update package dependencies
+* Update package description & license
+* Contributors: Erwan Le Huitouze
+
 0.1.18 (2016-03-06)
 -------------------
 * Update package.xml, add author
