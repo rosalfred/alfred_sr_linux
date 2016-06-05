@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>alfred_sr_linux</name>
-  <version>0.1.19</version>
+  <version>0.1.20</version>
   <description>The alfred_sr_linux package</description>
 
   <maintainer email="mick.gaillard@gmail.com">Mickael Gaillard</maintainer>
