@@ -4,7 +4,7 @@ project(alfred_sr_linux)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED COMPONENTS dynamic_reconfigure rospy std_msgs smarthome_media_msgs)
+find_package(catkin REQUIRED COMPONENTS dynamic_reconfigure rospy std_msgs smarthome_comm_msgs)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -55,7 +55,7 @@ catkin_python_setup()
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES media_xbmc_driver
-  CATKIN_DEPENDS dynamic_reconfigure rospy std_msgs smarthome_media_msgs
+  CATKIN_DEPENDS dynamic_reconfigure rospy std_msgs smarthome_comm_msgs
 #  DEPENDS system_lib
 )
 
